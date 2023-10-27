@@ -1,0 +1,167 @@
+.Head{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    position:fixed;
+    top:0%;
+    right:0%;
+    left:0%;
+    bottom:78%;
+    background-color: black;
+    z-index: 100;
+    border-bottom:solid ;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    contain: strict;
+}
+
+.Head .holder{
+    display:grid;
+    grid-template-rows: 1fr 2fr 1fr;
+    contain:strict;
+    width:80%;
+}
+
+.Head .logo{
+  width:100%;
+  position:relative;
+  top:0%;
+  bottom:110%;
+  
+
+}
+
+
+
+
+
+.fieldset{
+    display:inline-block;
+    border-radius: 10px;
+    border-color: limegreen;
+    position: absolute;
+    width:50%;
+    height:45%;
+    top:25%;
+    left:40%;
+    right:10%;
+    bottom:0%;
+    padding:1.5%;
+    contain: strict;
+
+}
+
+
+.Note{
+    width:40%;
+    position: absolute;
+    right:2%;
+    top:10%;
+    bottom:10%;
+    padding-bottom:1%; 
+}
+
+.Note .call{
+    
+    width:100%;
+    
+}
+
+
+.back{
+    border-style:dotted;
+    border-color:rgb(80, 168, 68);
+    border-radius: 100%;
+    color:white;
+    background-color: black;
+    padding:1%;
+    transition: background-color 0.15s,
+    color 0.15s;
+    cursor:pointer;
+    position: absolute;
+    left:5%;
+    top:40%;
+    right:70%;
+    bottom:30%;
+    contain: strict;
+    width:10%;
+    height:20%;
+}
+
+.back img{
+    width:80%;
+    position: absolute;
+    left:7%;
+    top:25%;
+    right:70%;
+    bottom:30%;
+}
+
+.back:hover{
+    padding: 1.5%;
+    transition:0.15s;
+}
+
+.back:active{
+    background-color: rgba(255, 255, 255, 0.897);
+    color:rgb(80, 168, 68);
+    transition: 0.15s;
+    border-color: rgb(80, 168, 68);
+}
+
+
+
+
+
+
+.body{
+ font-family:arial;
+}
+
+.body .content{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 5%;
+    column-gap: 5%;
+    overflow-y: auto;
+    padding-left:1%;
+    padding-top:15%;
+    padding-right: 1%;
+    background-color: rgba(156, 154, 154, 0.486);
+    position:fixed;
+    bottom:0%;
+    top:15%;
+    right:0%;
+    left:0%;
+    padding-left:2%;
+    padding-right:2%;
+}
+
+.content div{
+    display:grid;
+    height:100%;
+    width:100%;
+    margin-bottom: 2%;
+    border-radius: 30px;        
+}
+
+.product{
+    width:100%;
+    border-radius: 50px;
+
+}
+
+
+.content div:hover{
+    box-shadow: 5px 5px 10px black;
+}
+
+.Info{
+    background-color: limegreen;
+    color:white;
+    font-size:18px;
+    font-weight:900;
+    align-items:center;
+    justify-content:space-evenly;
+    border-style:none;
+}
